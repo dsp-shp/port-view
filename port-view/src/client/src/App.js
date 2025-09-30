@@ -9,7 +9,7 @@ function App() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:4567/emps", {
+    fetch("http://127.0.0.1:4567/api/emps", {
       method: "GET",
       headers: {
         Accept: "application/json; charset=utf-8",
